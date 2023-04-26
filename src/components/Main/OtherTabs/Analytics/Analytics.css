@@ -1,0 +1,8 @@
+.analytics-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: 0.8rem auto;
+    border-radius: 0.7rem;
+}

@@ -1,0 +1,103 @@
+.transact-wrapper {
+    width: 95%;
+    margin: 0.8rem auto;
+    border-radius: 0.7rem;
+}
+
+.transact-cover {
+    border-radius: 0.7rem;
+    display: grid;
+    grid-template-columns: 68% 1fr;
+    gap: 2%;
+    padding: 20px;
+}
+
+.transact-left {
+    /* background: linear-gradient(180deg, #f2aeb6 0%, #f9c1c8 100%); */
+
+    border-radius: 0.7rem;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.amount-field, .narration {
+    height: 40px;
+    border-radius: 0.6rem;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.input-label {
+    margin-top: 20px;
+}
+
+.button-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    border: none;
+    margin: 15px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    font-weight: 800;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.btn-add{
+    background-color: rgba(63, 252, 63, 0.54);
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+}
+
+.btn-add:hover{
+    background-color: rgb(43, 150, 43);
+}
+
+.btn-sub{
+    background-color: rgb(238, 97, 97);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-sub:hover{
+    background-color: rgb(186, 43, 43);
+}
+
+/* ======================= Motivation section ============== */
+
+.motivation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0.7rem;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.quote-of-the-day {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.quote-author {
+    margin-top: 20px;
+    text-align: right;
+}

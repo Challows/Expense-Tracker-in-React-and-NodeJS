@@ -1,0 +1,43 @@
+.profile {
+    /* background-color: white; */
+    height: 150px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.8rem 0;
+}
+
+.profile * {
+    margin: 0.3rem;
+}
+
+.user-name {
+    color: purple;
+    transition: all 1s ease;
+}
+
+.user-name:hover {
+    text-decoration: underline;
+    color: rgb(149, 1, 149);
+    cursor: pointer;
+}
+
+.profile img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.profile-img a {
+    text-decoration: none;
+    margin: 0 !important;
+}
+
+.profile-img a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

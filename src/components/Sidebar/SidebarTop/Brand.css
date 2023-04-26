@@ -1,0 +1,13 @@
+.Brand {
+    background-color: white;
+    height: 70px;
+    border-radius: 0.5rem;
+    color: rgb(33, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: #FF919D;
+}

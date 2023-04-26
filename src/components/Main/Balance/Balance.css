@@ -1,0 +1,41 @@
+.main-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.transact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #bb67ff 0%, #c484f3 100%);
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 27px;
+    font-weight: 700;
+    width: 100%;
+    cursor: pointer;
+}
+
+.balance {
+    height: 6rem;
+    /* width: 15rem; */
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    /* width: 237px; */
+}
+
+.label {
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+}
+
+.balance-amount {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(195, 93, 110);
+    margin-top: 0.5rem;
+}

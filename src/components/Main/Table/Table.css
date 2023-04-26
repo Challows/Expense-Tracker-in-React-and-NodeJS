@@ -1,0 +1,65 @@
+.table-container {
+    border-radius: 0.5rem !important;
+    /* height: 16rem; */
+    background: rgba(255, 255, 255, 0.44) !important;
+    padding-bottom: 0.3rem;
+}
+
+.table-title {
+    margin-left: 1rem !important;
+    color: rgb(195, 93, 110);
+    font-size: 18px;
+    margin-right: 28rem;
+}
+
+.table {
+  overflow-y: scroll;
+  height: 330px;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.table-link {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.MuiTableRow-root > * {
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .MuiTableRow-root.MuiTableRow-head > * {
+    font-weight: bold !important;
+  }
+  
+  
+  .table:first-child {
+    border-radius: 0.7rem !important;
+  }
+  .status {
+    font-weight: bold;
+  }
+
+  .delete-button {
+    color: #f799a2;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .table {
+      width: 170%;
+      margin-top: 2rem;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .table{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 23rem;
+    }
+  }
+
